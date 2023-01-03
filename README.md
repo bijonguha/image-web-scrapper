@@ -47,9 +47,3 @@ for search_key in search_keys:
     image_scrapper = GoogleImageScraper(webdriver_path,image_path,search_key,number_of_images,headless,min_resolution,max_resolution)
     image_urls = image_scrapper.find_image_urls()
     image_scrapper.save_images(image_urls)
-
-```
-## Youtube Video:
-[![IMAGE ALT TEXT](https://github.com/ohyicong/Google-Image-Scraper/blob/master/youtube_thumbnail.PNG)](https://youtu.be/QZn_ZxpsIw4 "Google Image Scraper")
-
-Do remember to like, share and subscribe!
